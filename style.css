@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+#navp1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3 {
+    font-size: 15px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    border-radius: 60px;
+    padding: 5px 10px;
+}
+
+#nav i {
+    border: 1.5px solid black;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
+#nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#navp3 button {
+    border: 1px solid black;
+    border-radius: 60px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.b2{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: none !important;
+}
+#main>h1{
+    text-transform: uppercase;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#i1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#i2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#i3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bl{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#br{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#bc{
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+}
